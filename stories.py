@@ -43,3 +43,4 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+print(story.generate({'place':'a', 'noun':'b','verb':'c','adjective':'d','plural_noun':'e'}))
